@@ -23,5 +23,5 @@ issue_day = int(input("Enter issue day: "))
 issue_date = f'Issue date: "{issue_day:02d}-{issue_month:02d}"'
 temp_issue_date = datetime(current_year, issue_month, issue_day)
 
-print(username, title, content, status, sep='\n')
+print(f"Username: {username}\nNote title: {title}\nNote content: {content}\nNote status: {status}")
 print(created_date, issue_date, sep='\n')
