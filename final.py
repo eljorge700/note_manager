@@ -45,5 +45,5 @@ for title in note[5]:
     print(f"- {title}")
 print(f"Note content: {note[1]}")
 print(f"Note status: {note[2]}")
-print(f"created_date: {note[3]}")
-print(f"issue_date: {note[4]}")
+print({note[3]})
+print({note[4]})
